@@ -1,0 +1,109 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+}
+.page{
+	position: relative;
+	width: 90%;
+	height: 80%;
+	border: 1px solid white;
+	background-color: white;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 15%;
+	font-family: "Old English Text MT";
+}
+.header{
+	border-bottom: 2px solid black;
+}
+@font-face{
+	font-family: "Old English Text MT";
+	src: url("font/Old English Text MT.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+#head{
+	font-size: 74px;
+	padding: 140px;
+}
+#date{
+	font-size: 18px;
+	padding: 500px;
+}
+
+.content{
+	width: 1210px;
+	height: 525px;
+	margin-top: 5px;
+}
+.left{
+	width: 280px;
+	height: 505px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+h1{
+	padding-left: 20px;
+	margin-top: 0px;
+}
+.education{
+	width: 250px;
+	height: 300px;
+	border-top: 1px solid black;
+	margin-top: -25px;
+	font-size: 20px;
+}
+.center{
+	width: 500px;
+	height: 523px;
+	margin-left:300px;
+	margin-top: -526px;
+	padding-left: 60px;
+	font-size: 20px;
+	line-height: 0px;
+}
+img{
+	width: 150px;
+	height: 180px;
+	margin-left: -30px;
+	padding-left: 0px;
+	padding-top: 25px;
+}
+.objective{
+	width: 330px;
+	height: 270px;
+	margin-left: 145px;
+	margin-top: -185px;
+	padding-top: 0px;
+}
+.experience{
+	width: 470px;
+	height: 100px;
+	display: block;
+	margin-top: 20px;
+}
+.rigth{
+	width: 280px;
+	height: 465px;
+	margin-top: -528px;
+	margin-left: 880px;
+	font-size: 20px;
+	padding-top: 0px;
+}
+.transition-rotate {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s linear;
+}
+.transition-rotate:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#transition-opacity {
+  transition: 3s linear;
+}
+#transition-opacity:hover {
+  opacity: 1;
+}
